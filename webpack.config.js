@@ -5,7 +5,7 @@ if(dev){
   console.log("estoy en modo local");
   live.start({
     root:"./",
-    "file":"public/index.html"
+    "file":"index.html"
   })
 }
 module.exports = {
