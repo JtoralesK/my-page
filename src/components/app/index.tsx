@@ -6,6 +6,7 @@ import { ListProjects } from "../listProjects";
 import { Pg } from "../pantallasGrandes";
 import {Header} from"../header"
 import { Toggle } from "../toggle";
+import { Footer } from "../footer";
 const App = ()=>{
     const [mode , setMode] = useState(true)
 
@@ -24,6 +25,8 @@ const App = ()=>{
          <About/>
          <Contact/>
         </Pg>
+         <Footer/>
+
     
         </div>
     )

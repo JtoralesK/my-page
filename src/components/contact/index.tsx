@@ -20,7 +20,7 @@ const Contact = ()=>{
             <div className="bar"></div>
             <div className="c-wrapper">
                 <div className="c-left-wrapper">
-                    <h1 className="c-title">Let s discuss your proyect </h1>
+                    <h1 className="c-title">Contactame </h1>
                     <div className="c-type">
                         <div className="type-phone">
                             <FaPhoneAlt  className="icon"/>
@@ -32,26 +32,24 @@ const Contact = ()=>{
                         </div>
                         <div className="type-phone">
                             <FaMapMarkerAlt  className="icon"/>
-                            <p className="afterIcon">Avenida Croacia 2931</p>
+                            <p className="afterIcon">Buenos Aires, Argentina</p>
                         </div>
                     </div>
                 </div>
                 <div className="c-right-wrapper">
-                    <b className="c-black">Do you want know me ?</b>
-                    <p className="c-right-p">Lorem ipsum dolor sit amet consectetur adipa nostrum suscipit 
-                        libero debitis aspernatur quasi quaer quia dolorum est.</p>
                         <form ref={formRef} className="form" onSubmit={handle} >
                             <div className="c-right-responsive">
-                            <input className="input" type="text" placeholder="Name" name="name" required/>
-                            <input className="input" type="text" placeholder="Subjet" name="subject" required/>
+                            <input className="input" type="text" placeholder="Nombre y apellido" name="name" required/>
+                            <input className="input" type="text" placeholder="Tema" name="subject" required/>
                             </div>
                             <input className="input email" type="email" placeholder="Email" name="email" required />
-                            <textarea name="message"  rows={5} required/>
+                            <textarea className="textarea" name="message"  rows={5} placeholder="Mensaje"  required/>
                             <button className="c-button">submit</button>
                         </form>
                 </div>
 
             </div>
+            
         </div>)
 }
 export {Contact};

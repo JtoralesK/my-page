@@ -18,8 +18,8 @@ const Project = (props:Prop)=>{
       <div className="p-visto">
       <p className="p-item">{props.content}</p>
         <div className="p-links">
-        <a  className="link" href={props.link}>Ver</a> 
-        <a className="link" href={props.github}>Codigo</a> 
+        <a target="_blank"  className="link" href={props.link}>Ver</a> 
+        <a target="_blank" className="link" href={props.github}>Codigo</a> 
         </div>
 
       </div>

@@ -5,7 +5,7 @@ type Prop = {
 const Header = (prop:Prop)=>{
     return (
         <header className="header">
-             <div ><a className="header_miNombre" href="#">Desarrollador Web Fullstack</a></div>
+             <div ><a className="header_miNombre" href="#">YourDev</a></div>
             <nav className="nav">
                 <ul className="nav_ul">
                     <li><a href="#proyectos">Proyectos</a></li>
