@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack",
     "build": "cross-env NODE_ENV=production webpack",
-    "start": "live-server"
+    "start": "live-server ./public/index.html "
   },
   "devDependencies": {
     "ts-loader": "^9.2.8",
